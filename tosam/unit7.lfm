@@ -1,0 +1,60 @@
+object Form7: TForm7
+  Left = 362
+  Height = 300
+  Top = 209
+  Width = 584
+  Caption = 'visualizador de fragmentos de código'
+  ClientHeight = 300
+  ClientWidth = 584
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '0.9.31'
+  object Memo1: TMemo
+    Left = 8
+    Height = 260
+    Top = 32
+    Width = 574
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    PopupMenu = PopupMenu1
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 16
+    Top = 11
+    Width = 45
+    Caption = 'Nombre'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 64
+    Height = 23
+    Top = 4
+    Width = 144
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object PopupMenu1: TPopupMenu
+    left = 207
+    top = 97
+    object MenuItem1: TMenuItem
+      Caption = 'guardar'
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'editar'
+    end
+    object MenuItem6: TMenuItem
+      Caption = '-'
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'copiar'
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'cortar'
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'pegar'
+    end
+  end
+end
