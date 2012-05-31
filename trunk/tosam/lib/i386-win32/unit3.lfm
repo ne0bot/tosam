@@ -1,0 +1,51 @@
+object Form3: TForm3
+  Left = 462
+  Height = 74
+  Top = 330
+  Width = 280
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Exportador'
+  ClientHeight = 74
+  ClientWidth = 280
+  Color = clSilver
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '0.9.31'
+  object Label1: TLabel
+    Left = 8
+    Height = 16
+    Top = 47
+    Width = 41
+    Caption = 'Destino'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 16
+    Top = 15
+    Width = 45
+    Caption = 'Nombre'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 56
+    Height = 23
+    Top = 8
+    Width = 192
+    PopupMenu = Form1.popanulador
+    TabOrder = 0
+  end
+  object DirectoryEdit1: TDirectoryEdit
+    Left = 56
+    Height = 23
+    Top = 40
+    Width = 192
+    ShowHidden = False
+    ButtonWidth = 23
+    NumGlyphs = 0
+    MaxLength = 0
+    PopupMenu = Form1.popanulador
+    TabOrder = 1
+  end
+end

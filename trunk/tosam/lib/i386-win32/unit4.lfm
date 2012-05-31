@@ -1,0 +1,1099 @@
+object Form4: TForm4
+  Left = 470
+  Height = 429
+  Top = 171
+  Width = 680
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'configuración'
+  ClientHeight = 429
+  ClientWidth = 680
+  Color = clSilver
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '0.9.31'
+  object Bevel1: TBevel
+    Left = 8
+    Height = 144
+    Top = 8
+    Width = 354
+  end
+  object BitBtn1: TBitBtn
+    Left = 312
+    Height = 22
+    Top = 32
+    Width = 40
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF001C811F231B7E1F7D1B7A1FDB1A731EF31A701EF31B71
+      1FDB1B711F7D1B6C1F23FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF001C8A21531B831FE642A052FF87CA9AFF9BD3ABFF9BD2ABFF83C7
+      96FF3D974CFF1A6E1EE61B701F53FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF001C912B531B8A20F46DBE83FFA8DBB5FF87CC98FF66BC7DFF64BA7CFF86CB
+      98FFA5D9B4FF66B77DFF1A6C1DF41B711F53FFFFFF00FFFFFF00FFFFFF001D9B
+      36221C962FE572C287FFA8DBB2FF60BC77FF5CBA73FF59B870FF59B56FFF58B5
+      6FFF5BB774FFA5D9B3FF69B87FFF1A711EE51B711F22FFFFFF00FFFFFF001EA4
+      3D7E4CB064FFAADDB4FF64C179FF5FBE71FF75C585FFD4ECD9FF8ACD99FF56B6
+      6CFF58B56EFF5CB774FFA6DAB4FF419B4EFF1B771F7EFFFFFF00FFFFFF001FA9
+      42DB91D29FFF8DD49AFF64C374FF79C987FFF2FAF4FFFFFFFFFFFDFEFDFF86CB
+      96FF57B76DFF5BB972FF85CC97FF87C79AFF1B781FDBFFFFFF00FFFFFF001FAD
+      42F6A6DCAFFF70CA7FFF73CA80FFF0F9F1FFFFFFFFFFEBF7EDFFFFFFFFFFFBFD
+      FCFF88CD96FF5BB971FF67BE7DFFA0D7AFFF1B7A1EF6FFFFFF00FFFFFF0026B4
+      4BF6A7DDB1FF72CC80FF66C773FFB0E1B7FFD2EED6FF63C170FFB8E3BFFFFFFF
+      FFFFFBFDFCFF8CD099FF69C17EFFA1D7AEFF1B7F1EF6FFFFFF00FFFFFF002DBB
+      54DB95D7A1FF91D79BFF69C976FF64C66FFF61C46EFF61C36FFF61C26FFFB9E4
+      C0FFFFFFFFFFE3F4E6FF8BD199FF8BCE9DFF1C8820DBFFFFFF00FFFFFF0034BE
+      597E57BF70FFAFE1B7FF6DCC7AFF68C872FF65C770FF63C56EFF62C46EFF63C4
+      71FFB6E3BEFF6FC77EFFACDFB5FF48A95EFF1C8F267EFFFFFF00FFFFFF0039C2
+      5C2234BE55E57FCE90FFAEE1B5FF6DCC7AFF6ACA76FF68C872FF68C874FF68C8
+      75FF6BC979FFACDFB4FF76C489FF1C962DE51C942D22FFFFFF00FFFFFF00FFFF
+      FF003BC55E5334C055F47FCE90FFAFE1B7FF92D89DFF77CE83FF77CE83FF92D8
+      9DFFAEE1B5FF78C88BFF1D9D32F41D9D3653FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF003DC7605336C259E659C274FF96D7A3FFA5DCAEFFA5DCAEFF95D6
+      A1FF50B96AFF1FAB42E61FA94253FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF0040C962233BC55E7D39C25BDB31BD54F32DBB52F32BB9
+      52DB2BB7527D28B44E23FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 16
+    Top = 16
+    Width = 202
+    Caption = 'Ruta del baúl de unidades reutilizables'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 16
+    Top = 72
+    Width = 227
+    Caption = 'Ruta del baúl  de los fragmentos de código'
+    ParentColor = False
+  end
+  object BitBtn2: TBitBtn
+    Left = 312
+    Height = 23
+    Top = 88
+    Width = 40
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF001C811F231B7E1F7D1B7A1FDB1A731EF31A701EF31B71
+      1FDB1B711F7D1B6C1F23FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF001C8A21531B831FE642A052FF87CA9AFF9BD3ABFF9BD2ABFF83C7
+      96FF3D974CFF1A6E1EE61B701F53FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF001C912B531B8A20F46DBE83FFA8DBB5FF87CC98FF66BC7DFF64BA7CFF86CB
+      98FFA5D9B4FF66B77DFF1A6C1DF41B711F53FFFFFF00FFFFFF00FFFFFF001D9B
+      36221C962FE572C287FFA8DBB2FF60BC77FF5CBA73FF59B870FF59B56FFF58B5
+      6FFF5BB774FFA5D9B3FF69B87FFF1A711EE51B711F22FFFFFF00FFFFFF001EA4
+      3D7E4CB064FFAADDB4FF64C179FF5FBE71FF75C585FFD4ECD9FF8ACD99FF56B6
+      6CFF58B56EFF5CB774FFA6DAB4FF419B4EFF1B771F7EFFFFFF00FFFFFF001FA9
+      42DB91D29FFF8DD49AFF64C374FF79C987FFF2FAF4FFFFFFFFFFFDFEFDFF86CB
+      96FF57B76DFF5BB972FF85CC97FF87C79AFF1B781FDBFFFFFF00FFFFFF001FAD
+      42F6A6DCAFFF70CA7FFF73CA80FFF0F9F1FFFFFFFFFFEBF7EDFFFFFFFFFFFBFD
+      FCFF88CD96FF5BB971FF67BE7DFFA0D7AFFF1B7A1EF6FFFFFF00FFFFFF0026B4
+      4BF6A7DDB1FF72CC80FF66C773FFB0E1B7FFD2EED6FF63C170FFB8E3BFFFFFFF
+      FFFFFBFDFCFF8CD099FF69C17EFFA1D7AEFF1B7F1EF6FFFFFF00FFFFFF002DBB
+      54DB95D7A1FF91D79BFF69C976FF64C66FFF61C46EFF61C36FFF61C26FFFB9E4
+      C0FFFFFFFFFFE3F4E6FF8BD199FF8BCE9DFF1C8820DBFFFFFF00FFFFFF0034BE
+      597E57BF70FFAFE1B7FF6DCC7AFF68C872FF65C770FF63C56EFF62C46EFF63C4
+      71FFB6E3BEFF6FC77EFFACDFB5FF48A95EFF1C8F267EFFFFFF00FFFFFF0039C2
+      5C2234BE55E57FCE90FFAEE1B5FF6DCC7AFF6ACA76FF68C872FF68C874FF68C8
+      75FF6BC979FFACDFB4FF76C489FF1C962DE51C942D22FFFFFF00FFFFFF00FFFF
+      FF003BC55E5334C055F47FCE90FFAFE1B7FF92D89DFF77CE83FF77CE83FF92D8
+      9DFFAEE1B5FF78C88BFF1D9D32F41D9D3653FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF003DC7605336C259E659C274FF96D7A3FFA5DCAEFFA5DCAEFF95D6
+      A1FF50B96AFF1FAB42E61FA94253FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF0040C962233BC55E7D39C25BDB31BD54F32DBB52F32BB9
+      52DB2BB7527D28B44E23FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    TabOrder = 1
+  end
+  object CheckBox1: TCheckBox
+    Left = 22
+    Height = 19
+    Top = 128
+    Width = 301
+    Caption = 'usar la misma ruta para ambos baules(recomendado)'
+    OnChange = CheckBox1Change
+    TabOrder = 2
+  end
+  object Bevel2: TBevel
+    Left = 8
+    Height = 224
+    Top = 160
+    Width = 354
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 16
+    Top = 168
+    Width = 104
+    Caption = 'Color del programa'
+    ParentColor = False
+  end
+  object boton_colorprograma: TColorButton
+    Left = 224
+    Height = 17
+    Top = 167
+    Width = 56
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clBlack
+  end
+  object Bevel3: TBevel
+    Left = 368
+    Height = 376
+    Top = 8
+    Width = 304
+  end
+  object Label4: TLabel
+    Left = 376
+    Height = 16
+    Top = 16
+    Width = 187
+    Caption = 'Color de fondo del  visor de código'
+    ParentColor = False
+  end
+  inline SynMemo1: TSynMemo
+    Cursor = crIBeam
+    Left = 376
+    Height = 193
+    Top = 183
+    Width = 288
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqNonAntialiased
+    ParentColor = False
+    ParentFont = False
+    PopupMenu = Form1.popanulador
+    TabOrder = 3
+    Gutter.Color = cl3DDkShadow
+    Gutter.Width = 57
+    Gutter.MouseActions = <>
+    Highlighter = syn
+    Keystrokes = <    
+      item
+        Command = ecUp
+        ShortCut = 38
+      end    
+      item
+        Command = ecSelUp
+        ShortCut = 8230
+      end    
+      item
+        Command = ecScrollUp
+        ShortCut = 16422
+      end    
+      item
+        Command = ecDown
+        ShortCut = 40
+      end    
+      item
+        Command = ecSelDown
+        ShortCut = 8232
+      end    
+      item
+        Command = ecScrollDown
+        ShortCut = 16424
+      end    
+      item
+        Command = ecLeft
+        ShortCut = 37
+      end    
+      item
+        Command = ecSelLeft
+        ShortCut = 8229
+      end    
+      item
+        Command = ecWordLeft
+        ShortCut = 16421
+      end    
+      item
+        Command = ecSelWordLeft
+        ShortCut = 24613
+      end    
+      item
+        Command = ecRight
+        ShortCut = 39
+      end    
+      item
+        Command = ecSelRight
+        ShortCut = 8231
+      end    
+      item
+        Command = ecWordRight
+        ShortCut = 16423
+      end    
+      item
+        Command = ecSelWordRight
+        ShortCut = 24615
+      end    
+      item
+        Command = ecPageDown
+        ShortCut = 34
+      end    
+      item
+        Command = ecSelPageDown
+        ShortCut = 8226
+      end    
+      item
+        Command = ecPageBottom
+        ShortCut = 16418
+      end    
+      item
+        Command = ecSelPageBottom
+        ShortCut = 24610
+      end    
+      item
+        Command = ecPageUp
+        ShortCut = 33
+      end    
+      item
+        Command = ecSelPageUp
+        ShortCut = 8225
+      end    
+      item
+        Command = ecPageTop
+        ShortCut = 16417
+      end    
+      item
+        Command = ecSelPageTop
+        ShortCut = 24609
+      end    
+      item
+        Command = ecLineStart
+        ShortCut = 36
+      end    
+      item
+        Command = ecSelLineStart
+        ShortCut = 8228
+      end    
+      item
+        Command = ecEditorTop
+        ShortCut = 16420
+      end    
+      item
+        Command = ecSelEditorTop
+        ShortCut = 24612
+      end    
+      item
+        Command = ecLineEnd
+        ShortCut = 35
+      end    
+      item
+        Command = ecSelLineEnd
+        ShortCut = 8227
+      end    
+      item
+        Command = ecEditorBottom
+        ShortCut = 16419
+      end    
+      item
+        Command = ecSelEditorBottom
+        ShortCut = 24611
+      end    
+      item
+        Command = ecToggleMode
+        ShortCut = 45
+      end    
+      item
+        Command = ecCopy
+        ShortCut = 16429
+      end    
+      item
+        Command = ecPaste
+        ShortCut = 8237
+      end    
+      item
+        Command = ecDeleteChar
+        ShortCut = 46
+      end    
+      item
+        Command = ecCut
+        ShortCut = 8238
+      end    
+      item
+        Command = ecDeleteLastChar
+        ShortCut = 8
+      end    
+      item
+        Command = ecDeleteLastChar
+        ShortCut = 8200
+      end    
+      item
+        Command = ecDeleteLastWord
+        ShortCut = 16392
+      end    
+      item
+        Command = ecUndo
+        ShortCut = 32776
+      end    
+      item
+        Command = ecRedo
+        ShortCut = 40968
+      end    
+      item
+        Command = ecLineBreak
+        ShortCut = 13
+      end    
+      item
+        Command = ecSelectAll
+        ShortCut = 16449
+      end    
+      item
+        Command = ecCopy
+        ShortCut = 16451
+      end    
+      item
+        Command = ecBlockIndent
+        ShortCut = 24649
+      end    
+      item
+        Command = ecLineBreak
+        ShortCut = 16461
+      end    
+      item
+        Command = ecInsertLine
+        ShortCut = 16462
+      end    
+      item
+        Command = ecDeleteWord
+        ShortCut = 16468
+      end    
+      item
+        Command = ecBlockUnindent
+        ShortCut = 24661
+      end    
+      item
+        Command = ecPaste
+        ShortCut = 16470
+      end    
+      item
+        Command = ecCut
+        ShortCut = 16472
+      end    
+      item
+        Command = ecDeleteLine
+        ShortCut = 16473
+      end    
+      item
+        Command = ecDeleteEOL
+        ShortCut = 24665
+      end    
+      item
+        Command = ecUndo
+        ShortCut = 16474
+      end    
+      item
+        Command = ecRedo
+        ShortCut = 24666
+      end    
+      item
+        Command = ecGotoMarker0
+        ShortCut = 16432
+      end    
+      item
+        Command = ecGotoMarker1
+        ShortCut = 16433
+      end    
+      item
+        Command = ecGotoMarker2
+        ShortCut = 16434
+      end    
+      item
+        Command = ecGotoMarker3
+        ShortCut = 16435
+      end    
+      item
+        Command = ecGotoMarker4
+        ShortCut = 16436
+      end    
+      item
+        Command = ecGotoMarker5
+        ShortCut = 16437
+      end    
+      item
+        Command = ecGotoMarker6
+        ShortCut = 16438
+      end    
+      item
+        Command = ecGotoMarker7
+        ShortCut = 16439
+      end    
+      item
+        Command = ecGotoMarker8
+        ShortCut = 16440
+      end    
+      item
+        Command = ecGotoMarker9
+        ShortCut = 16441
+      end    
+      item
+        Command = ecSetMarker0
+        ShortCut = 24624
+      end    
+      item
+        Command = ecSetMarker1
+        ShortCut = 24625
+      end    
+      item
+        Command = ecSetMarker2
+        ShortCut = 24626
+      end    
+      item
+        Command = ecSetMarker3
+        ShortCut = 24627
+      end    
+      item
+        Command = ecSetMarker4
+        ShortCut = 24628
+      end    
+      item
+        Command = ecSetMarker5
+        ShortCut = 24629
+      end    
+      item
+        Command = ecSetMarker6
+        ShortCut = 24630
+      end    
+      item
+        Command = ecSetMarker7
+        ShortCut = 24631
+      end    
+      item
+        Command = ecSetMarker8
+        ShortCut = 24632
+      end    
+      item
+        Command = ecSetMarker9
+        ShortCut = 24633
+      end    
+      item
+        Command = EcFoldLevel1
+        ShortCut = 41009
+      end    
+      item
+        Command = EcFoldLevel2
+        ShortCut = 41010
+      end    
+      item
+        Command = EcFoldLevel1
+        ShortCut = 41011
+      end    
+      item
+        Command = EcFoldLevel1
+        ShortCut = 41012
+      end    
+      item
+        Command = EcFoldLevel1
+        ShortCut = 41013
+      end    
+      item
+        Command = EcFoldLevel6
+        ShortCut = 41014
+      end    
+      item
+        Command = EcFoldLevel7
+        ShortCut = 41015
+      end    
+      item
+        Command = EcFoldLevel8
+        ShortCut = 41016
+      end    
+      item
+        Command = EcFoldLevel9
+        ShortCut = 41017
+      end    
+      item
+        Command = EcFoldLevel0
+        ShortCut = 41008
+      end    
+      item
+        Command = EcFoldCurrent
+        ShortCut = 41005
+      end    
+      item
+        Command = EcUnFoldCurrent
+        ShortCut = 41003
+      end    
+      item
+        Command = EcToggleMarkupWord
+        ShortCut = 32845
+      end    
+      item
+        Command = ecNormalSelect
+        ShortCut = 24654
+      end    
+      item
+        Command = ecColumnSelect
+        ShortCut = 24643
+      end    
+      item
+        Command = ecLineSelect
+        ShortCut = 24652
+      end    
+      item
+        Command = ecTab
+        ShortCut = 9
+      end    
+      item
+        Command = ecShiftTab
+        ShortCut = 8201
+      end    
+      item
+        Command = ecMatchBracket
+        ShortCut = 24642
+      end    
+      item
+        Command = ecColSelUp
+        ShortCut = 40998
+      end    
+      item
+        Command = ecColSelDown
+        ShortCut = 41000
+      end    
+      item
+        Command = ecColSelLeft
+        ShortCut = 40997
+      end    
+      item
+        Command = ecColSelRight
+        ShortCut = 40999
+      end    
+      item
+        Command = ecColSelPageDown
+        ShortCut = 40994
+      end    
+      item
+        Command = ecColSelPageBottom
+        ShortCut = 57378
+      end    
+      item
+        Command = ecColSelPageUp
+        ShortCut = 40993
+      end    
+      item
+        Command = ecColSelPageTop
+        ShortCut = 57377
+      end    
+      item
+        Command = ecColSelLineStart
+        ShortCut = 40996
+      end    
+      item
+        Command = ecColSelLineEnd
+        ShortCut = 40995
+      end    
+      item
+        Command = ecColSelEditorTop
+        ShortCut = 57380
+      end    
+      item
+        Command = ecColSelEditorBottom
+        ShortCut = 57379
+      end>
+    MouseActions = <>
+    MouseSelActions = <>
+    Lines.Strings = (
+      'uses'
+      '  Windows,'
+      '  Forms,'
+      '  Graphics;'
+      '//este es un comentario '
+      'procedure GlassForm(frm: TForm; cBlurColorKey: TColor = clFuchsia);'
+      ' '
+      'implementation'
+      ' '
+      'procedure GlassForm(frm: TForm; cBlurColorKey: TColor = clFuchsia);'
+      'const'
+      '  WS_EX_LAYERED = $80000;'
+      '  LWA_COLORKEY = 1;'
+      ' '
+      'type'
+      '  _MARGINS = packed record'
+      '    cxLeftWidth: Integer;'
+      '    cxRightWidth: Integer;'
+      '    cyTopHeight: Integer;'
+      '    cyBottomHeight: Integer;'
+      '  end;'
+      '  PMargins = ^_MARGINS;'
+      '  TMargins = _MARGINS;'
+    )
+    ReadOnly = True
+    inline SynLeftGutterPartList1: TSynGutterPartList
+      left = 65534
+      top = 6
+      object SynGutterMarks1: TSynGutterMarks
+        Width = 24
+        MouseActions = <>
+      end
+      object SynGutterLineNumber1: TSynGutterLineNumber
+        Width = 17
+        MouseActions = <>
+        MarkupInfo.Background = clNone
+        MarkupInfo.Foreground = clNone
+        DigitCount = 2
+        ShowOnlyLineNumbersMultiplesOf = 1
+        ZeroStart = False
+        LeadingZeros = False
+      end
+      object SynGutterChanges1: TSynGutterChanges
+        Width = 4
+        MouseActions = <>
+        ModifiedColor = 59900
+        SavedColor = clGreen
+      end
+      object SynGutterSeparator1: TSynGutterSeparator
+        Width = 2
+        MouseActions = <>
+      end
+      object SynGutterCodeFolding1: TSynGutterCodeFolding
+        MouseActions = <>
+        MarkupInfo.Background = clScrollBar
+        MarkupInfo.Foreground = clGray
+        MarkupInfo.FrameColor = clActiveBorder
+        MouseActionsExpanded = <>
+        MouseActionsCollapsed = <>
+      end
+    end
+  end
+  object Label5: TLabel
+    Left = 376
+    Height = 16
+    Top = 38
+    Width = 69
+    Caption = 'Comentarios'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 376
+    Height = 16
+    Top = 64
+    Width = 103
+    Caption = 'Palabras reservadas'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 376
+    Height = 16
+    Top = 88
+    Width = 92
+    Caption = 'Cadenas (strings)'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 376
+    Height = 16
+    Top = 112
+    Width = 50
+    Caption = 'Simbolos'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 376
+    Height = 16
+    Top = 136
+    Width = 50
+    Caption = 'Numeros'
+    ParentColor = False
+  end
+  object boton_colorvisorunid: TColorButton
+    Left = 592
+    Height = 16
+    Top = 16
+    Width = 56
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clBlack
+    OnColorChanged = boton_colorvisorunidColorChanged
+  end
+  object boton_colorcoment: TColorButton
+    Left = 592
+    Height = 16
+    Top = 38
+    Width = 56
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clBlack
+    OnColorChanged = boton_colorcomentColorChanged
+  end
+  object boton_colorpalabrasre: TColorButton
+    Left = 592
+    Height = 16
+    Top = 64
+    Width = 56
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clBlack
+    OnColorChanged = boton_colorpalabrasreColorChanged
+  end
+  object boton_colorcadenas: TColorButton
+    Left = 592
+    Height = 16
+    Top = 88
+    Width = 56
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clBlack
+    OnColorChanged = boton_colorcadenasColorChanged
+  end
+  object boton_colorsimbolos: TColorButton
+    Left = 592
+    Height = 16
+    Top = 112
+    Width = 56
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clBlack
+    OnColorChanged = boton_colorsimbolosColorChanged
+  end
+  object boton_colornumeros: TColorButton
+    Left = 592
+    Height = 16
+    Top = 136
+    Width = 56
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clBlack
+    OnColorChanged = boton_colornumerosColorChanged
+  end
+  object Label10: TLabel
+    Left = 16
+    Height = 16
+    Top = 216
+    Width = 157
+    Caption = 'Color del visor de fragmentos'
+    ParentColor = False
+  end
+  object boton_colorvisorf: TColorButton
+    Left = 224
+    Height = 17
+    Top = 215
+    Width = 56
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clBlack
+    OnColorChanged = boton_colorvisorfColorChanged
+  end
+  object Label11: TLabel
+    Left = 16
+    Height = 16
+    Top = 240
+    Width = 164
+    Caption = 'Fuente del visor de fragmentos'
+    ParentColor = False
+  end
+  object boton_aceptar: TBitBtn
+    Left = 400
+    Height = 27
+    Top = 392
+    Width = 75
+    Caption = 'Aceptar'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF001C811F231B7E1F7D1B7A1FDB1A731EF31A701EF31B71
+      1FDB1B711F7D1B6C1F23FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF001C8A21531B831FE642A052FF87CA9AFF9BD3ABFF9BD2ABFF83C7
+      96FF3D974CFF1A6E1EE61B701F53FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF001C912B531B8A20F46DBE83FFA8DBB5FF87CC98FF66BC7DFF64BA7CFF86CB
+      98FFA5D9B4FF66B77DFF1A6C1DF41B711F53FFFFFF00FFFFFF00FFFFFF001D9B
+      36221C962FE572C287FFA8DBB2FF60BC77FF5CBA73FF59B870FF59B56FFF58B5
+      6FFF5BB774FFA5D9B3FF69B87FFF1A711EE51B711F22FFFFFF00FFFFFF001EA4
+      3D7E4CB064FFAADDB4FF64C179FF5FBE71FF75C585FFD4ECD9FF8ACD99FF56B6
+      6CFF58B56EFF5CB774FFA6DAB4FF419B4EFF1B771F7EFFFFFF00FFFFFF001FA9
+      42DB91D29FFF8DD49AFF64C374FF79C987FFF2FAF4FFFFFFFFFFFDFEFDFF86CB
+      96FF57B76DFF5BB972FF85CC97FF87C79AFF1B781FDBFFFFFF00FFFFFF001FAD
+      42F6A6DCAFFF70CA7FFF73CA80FFF0F9F1FFFFFFFFFFEBF7EDFFFFFFFFFFFBFD
+      FCFF88CD96FF5BB971FF67BE7DFFA0D7AFFF1B7A1EF6FFFFFF00FFFFFF0026B4
+      4BF6A7DDB1FF72CC80FF66C773FFB0E1B7FFD2EED6FF63C170FFB8E3BFFFFFFF
+      FFFFFBFDFCFF8CD099FF69C17EFFA1D7AEFF1B7F1EF6FFFFFF00FFFFFF002DBB
+      54DB95D7A1FF91D79BFF69C976FF64C66FFF61C46EFF61C36FFF61C26FFFB9E4
+      C0FFFFFFFFFFE3F4E6FF8BD199FF8BCE9DFF1C8820DBFFFFFF00FFFFFF0034BE
+      597E57BF70FFAFE1B7FF6DCC7AFF68C872FF65C770FF63C56EFF62C46EFF63C4
+      71FFB6E3BEFF6FC77EFFACDFB5FF48A95EFF1C8F267EFFFFFF00FFFFFF0039C2
+      5C2234BE55E57FCE90FFAEE1B5FF6DCC7AFF6ACA76FF68C872FF68C874FF68C8
+      75FF6BC979FFACDFB4FF76C489FF1C962DE51C942D22FFFFFF00FFFFFF00FFFF
+      FF003BC55E5334C055F47FCE90FFAFE1B7FF92D89DFF77CE83FF77CE83FF92D8
+      9DFFAEE1B5FF78C88BFF1D9D32F41D9D3653FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF003DC7605336C259E659C274FF96D7A3FFA5DCAEFFA5DCAEFF95D6
+      A1FF50B96AFF1FAB42E61FA94253FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF0040C962233BC55E7D39C25BDB31BD54F32DBB52F32BB9
+      52DB2BB7527D28B44E23FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    OnClick = boton_aceptarClick
+    TabOrder = 4
+  end
+  object Label12: TLabel
+    Left = 376
+    Height = 16
+    Top = 160
+    Width = 124
+    Caption = 'Fuente predeterminada'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 16
+    Height = 112
+    Top = 264
+    Width = 336
+    Lines.Strings = (
+      'SABIENDO EL "TÍTULO"'
+      'enviandole un mensaje WM_CLOSE.'
+      ''
+      'Por ejemplo, cerrar la calculadora de Windows:'
+      ''
+      'procedure TForm1.Button1Click(Sender: TObject);'
+      'var '
+      'Mango:integer;'
+      'begin '
+      'Mango:=FindWindow(nil,''Calculadora'');'
+      'if mango=0'
+      'then ShowMessage(''No encuentro esa aplicacion'')'
+      'else SendMessage(Mango,WM_CLOSE,0,0);'
+      'end; '
+    )
+    ParentFont = False
+    PopupMenu = Form1.popanulador
+    ParentShowHint = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 5
+  end
+  object boton_cancelar: TBitBtn
+    Left = 478
+    Height = 27
+    Top = 392
+    Width = 75
+    Caption = 'Cancelar'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF000000F1EC0000F1FF0000F1FF0000F1FF0000EFFF0000
+      EFFF0000EDFF0000EDEDFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF000000F5EC1A20F5FF3C4CF9FF3A49F8FF3847F8FF3545F8FF3443
+      F7FF3242F7FF141BF1FF0000EDE8FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF000000F7EC1D23F9FF4453FAFF2429F9FF1212F7FF0F0FF6FF0C0CF5FF0909
+      F5FF161BF5FF3343F7FF141BF1FF0000EDE8FFFFFF00FFFFFF00FFFFFF000000
+      F9EC1F25FAFF4A58FBFF4247FBFFC9C9FDFF3B3BF9FF1313F7FF1010F6FF3333
+      F7FFC5C5FDFF3035F7FF3444F7FF141BF2FF0000EDE8FFFFFF00FFFFFF000000
+      FBFF4F5DFDFF3237FBFFCBCBFEFFF2F2FFFFEBEBFEFF3B3BF9FF3939F8FFEAEA
+      FEFFF1F1FEFFC5C5FDFF181DF6FF3343F7FF0000EFFFFFFFFF00FFFFFF000000
+      FDFF525FFDFF2828FCFF4747FCFFECECFFFFF2F2FFFFECECFFFFECECFEFFF1F1
+      FFFFEAEAFEFF3434F7FF0B0BF5FF3545F8FF0000EFFFFFFFFF00FFFFFF000000
+      FDFF5562FEFF2C2CFDFF2929FCFF4848FCFFEDEDFFFFF2F2FFFFF2F2FFFFECEC
+      FEFF3A3AF9FF1212F7FF0F0FF6FF3848F8FF0000F1FFFFFFFF00FFFFFF000000
+      FDFF5764FEFF3030FDFF2D2DFDFF4B4BFCFFEDEDFFFFF2F2FFFFF2F2FFFFECEC
+      FFFF3D3DF9FF1616F8FF1313F7FF3C4BF8FF0000F1FFFFFFFF00FFFFFF000000
+      FFFF5A67FEFF3333FEFF5050FDFFEDEDFFFFF3F3FFFFEDEDFFFFEDEDFFFFF2F2
+      FFFFECECFEFF3E3EFAFF1717F8FF3F4EF9FF0000F1FFFFFFFF00FFFFFF000000
+      FFFF5B68FFFF4347FEFFCFCFFFFFF3F3FFFFEDEDFFFF4C4CFCFF4A4AFCFFECEC
+      FFFFF2F2FFFFCACAFEFF2A2FFAFF4251FAFF0000F3FFFFFFFF00FFFFFF000000
+      FFEB262BFFFF5D6AFFFF585BFFFFCFCFFFFF5252FEFF2F2FFDFF2C2CFDFF4B4B
+      FCFFCCCCFEFF484CFBFF4957FBFF1D23F9FF0000F5EBFFFFFF00FFFFFF00FFFF
+      FF000000FFEB262BFFFF5D6AFFFF4347FFFF3434FEFF3232FEFF3030FDFF2D2D
+      FDFF383CFCFF4F5DFCFF1F25FAFF0000F7EBFFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF000000FFEB262BFFFF5C69FFFF5B68FFFF5A67FEFF5865FEFF5663
+      FEFF5461FEFF2227FCFF0000FBF2FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF000000FFEC0000FFFF0000FFFF0000FFFF0000FDFF0000
+      FDFF0000FDFF0000FDECFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    OnClick = boton_cancelarClick
+    TabOrder = 6
+  end
+  object Label13: TLabel
+    Left = 304
+    Height = 16
+    Top = 16
+    Width = 56
+    Caption = '(validar)'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object BitBtn5: TBitBtn
+    Left = 556
+    Height = 27
+    Top = 392
+    Width = 115
+    Caption = 'restaurar pred.'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00D587
+      57D5D58351FFD17D4BFFD17945AFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00D99165CCDFA4
+      81FFEAC2ABFFEAC0A8FFDC9971FFD17B47AFFFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DB976FFFEDC8
+      B3FFE7B89BFFE6B498FFEAC3ABFFDE9C73FFD17D49AFFFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DD9F79FFEDCC
+      B7FFE8BDA3FFE4B192FFE6B69AFFEAC3ACFFDE9C74FFD37F4DACFFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DFA57F92E6B3
+      94FFEECCB8FFE9BEA5FFE5B394FFE6B79BFFEAC4ADFFDE9E78FFD3814FACFFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00DFA5
+      8392E6B498FFEECDBAFFE9BFA5FFE5B496FFE7B99DFFEBC6AEFFDE9F79FFD583
+      51AAFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00E1A78592E6B799FFEECEBBFFE9C0A7FFE8BDA3FFECC8B3FFDFA481FFD289
+      5DC9FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00E1A98792E6B79CFFEFCFBCFFEECEBAFFE2AE8CFFD29B7BFF8888
+      88F786868623FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00E1A98992E7B99CFFE6B698FFD8A98CFFD2D2D2FFB5B5
+      B5FF898989FE878787FB858585FB838383D681818170FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00E3AD8B92DAA788CF929292FBC7C7C7FFCCCC
+      CCFFC7C7C7FFC6C6C6FFC3C3C3FFC0C0C0FF848484F582828270FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0095959548939393FED4D4
+      D4FFC8C8C8FFBCBCBCFFBABABAFFC2C2C2FFC4C4C4FF858585D6FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00969696FCDDDD
+      DDFFC5C5C5FF8F8F8FC18D8D8DC3ACACACFFD7D7D7FF878787FBFFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00989898FBE4E4
+      E4FFCFCFCFFF929292C2FFFFFF008E8E8EFF8C8C8CFF8A8A8AFBFFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF009B9B9BD6E2E2
+      E2FFE7E7E7FFB9B9B9FF939393FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF009D9D9D709B9B
+      9BF5E4E4E4FFEEEEEEFF969696FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF009E9E
+      9E709C9C9CD69B9B9BFB999999FBFFFFFF00FFFFFF00FFFFFF00
+    }
+    TabOrder = 7
+  end
+  object Edit1: TEdit
+    Left = 192
+    Height = 23
+    Top = 233
+    Width = 134
+    PopupMenu = Form1.popanulador
+    ReadOnly = True
+    TabOrder = 8
+  end
+  object Button1: TButton
+    Left = 328
+    Height = 23
+    Top = 233
+    Width = 24
+    OnClick = Button1Click
+    TabOrder = 9
+  end
+  object Edit2: TEdit
+    Left = 512
+    Height = 23
+    Top = 153
+    Width = 128
+    PopupMenu = Form1.popanulador
+    ReadOnly = True
+    TabOrder = 10
+  end
+  object Button2: TButton
+    Left = 640
+    Height = 23
+    Top = 153
+    Width = 24
+    OnClick = Button2Click
+    TabOrder = 11
+  end
+  object Label14: TLabel
+    Left = 16
+    Height = 16
+    Top = 193
+    Width = 172
+    Caption = 'Color de los textos del programa'
+    ParentColor = False
+  end
+  object boton_colortextos: TColorButton
+    Left = 224
+    Height = 17
+    Top = 192
+    Width = 56
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clBlack
+  end
+  object plRoundRectShape1: TplRoundRectShape
+    Left = 16
+    Height = 20
+    Top = 128
+    Width = 311
+    Shadow = True
+    ShadowOffset = 2
+    ShadowColor = clBtnShadow
+  end
+  object Edit3: TEdit
+    Left = 16
+    Height = 23
+    Top = 31
+    Width = 264
+    PopupMenu = Form1.popanulador
+    ReadOnly = True
+    TabOrder = 12
+  end
+  object Edit4: TEdit
+    Left = 16
+    Height = 23
+    Top = 88
+    Width = 264
+    PopupMenu = Form1.popanulador
+    ReadOnly = True
+    TabOrder = 13
+  end
+  object Button3: TButton
+    Left = 280
+    Height = 23
+    Top = 31
+    Width = 23
+    TabOrder = 14
+  end
+  object Button4: TButton
+    Left = 280
+    Height = 23
+    Top = 88
+    Width = 23
+    TabOrder = 15
+  end
+  object syn: TSynFreePascalSyn
+    Enabled = False
+    AsmAttri.FrameEdges = sfeAround
+    CommentAttri.FrameEdges = sfeAround
+    IDEDirectiveAttri.FrameEdges = sfeAround
+    IdentifierAttri.FrameEdges = sfeAround
+    KeyAttri.FrameEdges = sfeAround
+    NumberAttri.FrameEdges = sfeAround
+    SpaceAttri.FrameEdges = sfeAround
+    StringAttri.FrameEdges = sfeAround
+    SymbolAttri.FrameEdges = sfeAround
+    CaseLabelAttri.FrameEdges = sfeAround
+    DirectiveAttri.FrameEdges = sfeAround
+    CompilerMode = pcmObjFPC
+    NestedComments = True
+    left = 504
+    top = 256
+  end
+  object FontDialog1: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 328
+    top = 176
+  end
+end
